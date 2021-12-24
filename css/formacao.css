@@ -1,0 +1,128 @@
+.formacao {
+    max-width : 1200px;
+    padding   : 80px 20px;
+    margin    : 0 auto;
+    background: #262626;
+}
+
+.formacao-container {
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: center;
+    padding        : 20px 20px;
+    margin         : 0 auto;
+}
+
+.formacao-titulo {
+    font-size     : 40px;
+    line-height   : 1.125;
+    margin-bottom : 40px;
+    text-align    : center;
+    letter-spacing: .2rem;
+}
+
+.formacao-subtitulo {
+    text-align    : center;
+    font-size     : 14px;
+    margin-bottom : 20px;
+    font-weight   : 300;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+}
+
+.formacao-texto {
+    margin       : 0 auto;
+    max-width    : 70ch;
+    text-align   : center;
+    font-size    : 18px;
+    font-weight  : 400;
+    line-height  : 1.5;
+    margin-bottom: 30px;
+}
+
+.faculdade-lista {
+    margin: 15px;
+}
+
+.faculdade {
+    flex          : 1;
+    background    : #000;
+    padding       : 20px;
+    flex-direction: column;
+}
+
+.faculdade-tipo {
+    font-size     : 16px;
+    text-transform: uppercase;
+    color         : #a3a3a3;
+}
+
+.faculdade-curso {
+    margin  : 20px 0;
+    color   : #d1d1d1;
+    position: relative;
+}
+
+.faculdade-curso::before {
+    content      : "";
+    display      : block;
+    width        : 4px;
+    height       : 20px;
+    background   : linear-gradient(#b6f829, #67dd0a);
+    position     : absolute;
+    /* top       : 20px; */
+    left         : -24px;
+    /* O posicionamento do elemento deve variar de acordo com o width + o heigth = 24px */
+}
+
+.faculdade-instituicao {
+    margin: 10px 0;
+    color : #d1d1d1;
+}
+
+.cursos {
+    margin-bottom: 40px;
+}
+
+.formacao-extra {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    padding        : 60px 230px 0 230px;
+}
+
+.formacao-extra h3 {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    font-size      : 18px;
+    font-weight    : 500;
+    line-height    : 1.4;
+    text-transform : uppercase;
+    margin-bottom  : 50px;
+    text-align     : center;
+    color          : #DCDCDC;
+}
+
+.formacao-extra img {
+    display     : inline-block;
+    margin-right: 10px;
+}
+
+.formacao-extra li {
+    font-size    : 18px;
+    font-weight  : 300;
+    line-height  : 1.1;
+    margin-bottom: 20px;
+    color        : #d1d1d1;
+}
+
+.formacao-extra span {
+    color      : #8f8f8f;
+    font-weight: 500;
+}
+
+.cursos-extras li {
+    display        : flex;
+    justify-content: space-between;
+}
