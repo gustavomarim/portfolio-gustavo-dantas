@@ -1,6 +1,8 @@
 <h1 align="center"> Landing Page - Portfolio</h1>
 
-<img src="/" alt="Landing Page - Portfolio" height="800px">
+<div align="center">
+<img src="https://github.com/gustavomarim/imgs/blob/main/portfolio.gif" alt="Landing Page - Portfolio" width="690" height="380">
+</div>
 
 ---
 
@@ -26,7 +28,6 @@ Projeto desenvolvido do zero com o intuito de apresentar o meu portfolio e tamb�
 
 <h3 id="funcionalidades"> FUNCIONALIDADES:</h3>
 
-#### # Front-end
 
 - [x] Animação de links do cabeçalho
 - [x] Direcionamento de links do cabeçalho para sessões da página
